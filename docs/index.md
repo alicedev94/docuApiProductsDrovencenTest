@@ -1,25 +1,22 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "Drovencentest"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "DROVENCENTRO API"
+  tagline: API de productos de Drovencentro
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Guía rápida
+      link: /api-guide
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Consulta de Productos
+    details: Accede al catálogo completo de productos.
+  - title: Precios Personalizados
+    details: Obtén los precios actualizados según las listas de precios configuradas en Odoo para cada usuario.
+  - title: Descuentos Promocionales
+    details: Visualiza los descuentos y promociones aplicables según las reglas comerciales de Odoo.
+  - title: Integración Odoo
+    details: Conexión directa con tu sistema Odoo para obtener información en tiempo real de productos y precios.
 ---
 

@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "DROVECENTRO API",
+  title: " ",
   description: "API de productos de Drovencentro",
   themeConfig: {
     nav: [
@@ -12,8 +12,17 @@ export default defineConfig({
     outline: {
       level: 'deep',
       label: 'En esta sección'
-    }
+    },
 
+    logo: {
+      src: '/logo.jpeg',
+      alt: 'Drovencentro Logo'
+    },
 
+    siteTitle: false,
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ]
   }
 })

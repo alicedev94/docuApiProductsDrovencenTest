@@ -2,8 +2,12 @@
 layout: home
 
 hero:
-  name: "DROVENCENTRO API"
+  name: "Drovecentro Api"
   tagline: API de productos de Drovencentro
+  image:
+    src: /logo.jpeg
+    alt: Drovencentro Logo
+    style: "filter: drop-shadow(0 0 10px #3498db);"
   actions:
     - theme: brand
       text: Guía rápida
@@ -19,4 +23,13 @@ features:
   - title: Integración Odoo
     details: Conexión directa con tu sistema Odoo para obtener información en tiempo real de productos y precios.
 ---
+
+<style>
+.VPHome .VPHomeHero .name {
+  background: linear-gradient(120deg,rgb(65, 95, 184), #34495e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+</style>
 
